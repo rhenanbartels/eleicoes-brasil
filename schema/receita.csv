@@ -82,4 +82,4 @@ tipo_diretorio,text
 tipo_documento,text
 tipo_prestacao_contas,text
 titulo_eleitoral,text
-valor,text
+valor,decimal

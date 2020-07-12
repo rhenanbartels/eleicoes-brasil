@@ -37,16 +37,13 @@ codigo_fonte_recurso,"Código de identificação do tipo de fonte da despesa, in
 codigo_natureza_despesa,Código da natureza de recursos da despesa. Aparece no TSE como: CD_NATUREZA_DESPESA (2018). Coluna adicionada em 2018.
 codigo_origem_despesa,"Código de identificação do tipo de origem da despesa (DRD), informado pelo prestador de contas em relação à despesa. Aparece no TSE como: CD_ORIGEM_DESPESA (2018). Coluna adicionada em 2018."
 codigo_tipo_despesa,"Código do tipo de despesa. Aparece no TSE como: CD_TITULO (2004), CODIGO_TIPO_DESPESA (2006). Coluna adicionada em 2004."
-data_despesa,"Data da despesa. Aparece no TSE como: DT_DOC_DESP (2002), DATA_DESPESA (2006), DT_DESPESA (2008), Data da despesa (2010), DT_PAGTO_DESPESA (2018)."
 descricao_despesa,". Aparece no TSE como: Descriçao da despesa (2010), Descrição da despesa (2010). Coluna adicionada em 2010."
 despesa,Descrição da despesa. Aparece no TSE como: DS_DESPESA (2018). Coluna adicionada em 2018.
 especie_recurso,Descrição da espécie do recurso para pagamnto da despesa. Aparece no TSE como: DS_ESPECIE_RECURSO (2018). Coluna adicionada em 2018.
 fonte_recurso,". Aparece no TSE como: Fonte recurso (2010), DS_FONTE_DESPESA (2018). Coluna adicionada em 2010."
 natureza_despesa,Descrição da natureza de recursos da despesa. Pode assumir os valores ‘Financeiro’ ou ‘Estimável’. Aparece no TSE como: DS_NATUREZA_DESPESA (2018). Coluna adicionada em 2018.
 origem_despesa,"Descrição do tipo de origem da despesa (DRD), informado pelo prestador de contas em relação à despesa. Aparece no TSE como: DS_ORIGEM_DESPESA (2018). Coluna adicionada em 2018."
-tipo_despesa,"Tipo de despesa. Aparece no TSE como: DS_TITULO (2002), RTRIM(LTRIM(DR.DS_TITULO)) (2004), RTRIM(LTRIM(DR.CD_TITULO)) (2004), TIPO_DESPESA (2006), Tipo despesa (2010)."
 tipo_recurso,"Forma de pagamento (EM ESPÉCIE, CHEQUE, ESTIMADO, NÃO INFORMADO). Aparece no TSE como: DECODE(REC.TP_RECURSO,0,'EMESPÉCIE',1,'CHEQUE',2,'ESTIMADO','NÃOINFORMADO') (2004), DESCRICAO_FORMA_PAGAMENTO (2006), RV_MEANING (2006), DS_ESP_RECURSO (2008), Espécie recurso (2010). Coluna adicionada em 2004."
-valor_despesa,"Valor da despesa. Aparece no TSE como: VR_DESPESA (2002), VALOR_DESPESA (2006), Valor despesa (2010), VR_DESPESA_CONTRATADA (2018), VR_PAGTO_DESPESA (2018)."
 cargo,"Descrição do cargo. Aparece no TSE como: DS_CARGO (2002), DESCRICAO_CARGO (2006), Cargo (2010)."
 cnpj_orgao,"CNPJ de campanha. Aparece no TSE como: CNPJ (2006), NR_CNPJ (2008), CNPJ Prestador Conta (2014). Coluna adicionada em 2006."
 codigo_cargo,"Código do cargo. Aparece no TSE como: CD_CARGO (2004), CODIGO_CARGO (2006). Coluna adicionada em 2004."
@@ -57,6 +54,7 @@ codigo_tipo_documento,"Código do tipo de documento. Aparece no TSE como: CD_DOC
 codigo_tipo_eleicao,Código do tipo de eleição . Aparece no TSE como: CD_TIPO_ELEICAO (2018). Coluna adicionada em 2018.
 cpf_administrador,"CPF do presidente do comitê. Aparece no TSE como: CD_CPF_ADM (2008), NR_CPF (2008). Coluna adicionada em 2008."
 cpf_vice_suplente,"CPF do candidato a vice/suplente do titular, se houver. Aparece no TSE como: CPF do vice/suplente (2014-suplementar). Coluna adicionada em 2014-suplementar."
+data,"Data da despesa. Aparece no TSE como: DT_DOC_DESP (2002), DATA_DESPESA (2006), DT_DESPESA (2008), Data da despesa (2010), DT_PAGTO_DESPESA (2018)."
 data_eleicao,Data em que ocorreu a eleição. Aparece no TSE como: DT_ELEICAO (2018). Coluna adicionada em 2018.
 data_prestacao_contas,Data de entrega da prestação de contas junto ao TSE. Aparece no TSE como: DT_PRESTACAO_CONTAS (2018). Coluna adicionada em 2018.
 descricao_eleicao,". Aparece no TSE como: Desc. Eleição (2012), DS_ELEICAO (2018). Coluna adicionada em 2012."
@@ -70,6 +68,8 @@ nome_tipo_eleicao,Nome do tipo de eleião. Aparece no TSE como: NM_TIPO_ELEICAO 
 numero_documento,"Número do documento. Aparece no TSE como: NR_DOC_DESP (2004), NUMERO_DOCUMENTO (2006), DS_NR_DOCUMENTO (2008), Número do documento (2010), NR_DOCUMENTO (2018). Coluna adicionada em 2004."
 segundo_turno,Indicativo se o prestador de contas participou do segundo turno. Aparece no TSE como: ST_TURNO (2018). Coluna adicionada em 2018.
 situacao_cadastral,"Batimento Receita Federal do Brasil. Aparece no TSE como: RV_MEANING (2004), SITUACAO_CADASTRAL (2006), SITUACAOCADASTRAL (2006). Coluna adicionada em 2004."
+tipo,"Tipo de despesa. Aparece no TSE como: DS_TITULO (2002), RTRIM(LTRIM(DR.DS_TITULO)) (2004), RTRIM(LTRIM(DR.CD_TITULO)) (2004), TIPO_DESPESA (2006), Tipo despesa (2010)."
 tipo_diretorio,. Aparece no TSE como: Tipo diretorio (2014-suplementar). Coluna adicionada em 2014-suplementar.
 tipo_documento,"Tipo de documento (Nota Fiscal, Recibo, Outros). Aparece no TSE como: DS_TIPO_DOCUMENTO (2004), TIPO_DOCUMENTO (2006), RV_MEANING_1 (2006), Tipo do documento (2010), Tipo de documento (2014-suplementar). Coluna adicionada em 2004."
 tipo_prestacao_contas,Tipo de entrega da prestaçao de contas. Pode assumir os valores: Relatório financeiro (referente à entrega do relatório financeiro); Parcial (referente à entrega parcial de prestação de contas); Final (referente à entrega final da prestação). Aparece no TSE como: TP_PRESTACAO_CONTAS (2018). Coluna adicionada em 2018.
+valor,"Valor da despesa. Aparece no TSE como: VR_DESPESA (2002), VALOR_DESPESA (2006), Valor despesa (2010), VR_DESPESA_CONTRATADA (2018), VR_PAGTO_DESPESA (2018)."

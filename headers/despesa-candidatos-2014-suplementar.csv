@@ -20,9 +20,9 @@
 "Nome do fornecedor (Receita Federal)","nome_fornecedor_receita_federal","Nome do fornecedor de bens e/ou serviços cadastrado na Receita Federal do Brasil"
 "Cod setor econômico do fornecedor","codigo_setor_economico_fornecedor","Código CNAE do fornecedor de bens e/ou serviços, se pessoa jurídica"
 "Setor econômico do fornecedor","setor_economico_fornecedor","Descrição do CNAE do fornecedor de bens e/ou serviços, se pessoa jurídica"
-"Data da despesa","data_despesa","Data da despesa declarada à Justiça Eleitoral"
-"Valor despesa","valor_despesa","Valor da despesa em Reais (R$)"
-"Tipo despesa","tipo_despesa","Tipo da despesa, podendo ser
+"Data da despesa","data","Data da despesa declarada à Justiça Eleitoral"
+"Valor despesa","valor","Valor da despesa em Reais (R$)"
+"Tipo despesa","tipo","Tipo da despesa, podendo ser
 ""Despesas com pessoal"", ""Encargos sociais"", ""Impostos, contribuições e taxas"", ""Locação/cessão de bens imóveis"",
 ""Despesas com transporte ou deslocamento"", ""Publicidade por carros de som"", ""Locação/cessão de bens móveis (exceto
 veículos)"", ""Correspondências e despesas postais"", ""Materiais de expediente"", ""Combustíveis e lubrificantes"", ""Publicidade

@@ -40,6 +40,6 @@
 "CD_ORIGEM_DESPESA","codigo_origem_despesa","Código de identificação do tipo de origem da despesa (DRD), informado pelo prestador de contas em relação à despesa"
 "DS_ORIGEM_DESPESA","origem_despesa","Descrição do tipo de origem da despesa (DRD), informado pelo prestador de contas em relação à despesa"
 "SQ_DESPESA",,"Sequencial de identificação do registro da despesa declarada pelo prestador de contas"
-"DT_DESPESA","data_despesa","Data da despesa declarada à Justiça Eleitoral"
+"DT_DESPESA","data","Data da despesa declarada à Justiça Eleitoral"
 "DS_DESPESA","despesa","Descrição da despesa"
-"VR_DESPESA_CONTRATADA","valor_despesa","Valor da despesa contratada, em Reais (R$), informada pelo prestador de contas"
+"VR_DESPESA_CONTRATADA","valor","Valor da despesa contratada, em Reais (R$), informada pelo prestador de contas"
